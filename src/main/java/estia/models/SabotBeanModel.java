@@ -1,4 +1,4 @@
-package models;
+package estia.models;
 
 public class SabotBeanModel {
     

@@ -2,9 +2,11 @@ package estia.esabot.esabot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import controllers.SabotController;
+import org.springframework.context.annotation.ComponentScan;
+
 
 @SpringBootApplication
+@ComponentScan(basePackages = "{estia.esabot.esabot.controller}")
 public class EsabotApplication {
 
 	public static void main(String[] args) {
