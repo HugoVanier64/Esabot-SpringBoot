@@ -1,0 +1,17 @@
+body {
+  font-family: RockWell, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 35vh;
+}
+
+h4 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2vh;
+}
