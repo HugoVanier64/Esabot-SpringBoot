@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan
 
 @SpringBootApplication
-@ComponentScan(basePackages = "{com.esabot.controller}")
+@ComponentScan(basePackages = "{estia.esabot.esabot.controller}")
 public class EsabotApplication {
 
 	public static void main(String[] args) {
