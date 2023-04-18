@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "{estia.esabot.esabot.controller}")
+@ComponentScan(basePackages = "{estia.esabot.esabot.controllers}")
 public class EsabotApplication {
 
 	public static void main(String[] args) {
